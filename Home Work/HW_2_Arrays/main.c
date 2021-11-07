@@ -87,7 +87,7 @@ void task4() {
         for(int j = N - 2 - i; j >= i; j--)
             matrix[N - 1 - i][j] = num++;
         
-        for(int j = N - 1 - i; j > i; j--)
+        for(int j = N - 2 - i; j > i; j--)
             matrix[j][i] = num++;
     }
     
